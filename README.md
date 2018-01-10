@@ -51,8 +51,17 @@
     * a given for any Linux user
   * Atom
     * I love the speed and customization
-    * ls ~/.atom/packages
+    * ls -1 ~/.atom/packages
       * atom-unsaved-changes  autocomplete-ruby  dbg  Hydrogen	jekyll	jekyll-snippets  nuclide  stacktrace
+      * atom-unsaved-changes
+      * autocomplete-ruby
+      * dbg
+      * Hydrogen
+      * jekyll
+      * jekyll-snippets
+      * markdown-mindmap
+      * nuclide
+      * stacktrace
   * RubyMine
     * useful for its very powerful tools, particularly with debugging
     * prefer to handle simple testing and version control from the command line, lest I get lazy
