@@ -123,3 +123,8 @@
   * Steam
   * el Xboxo
     * eat my heart out
+
+### Other
+
+* Remove Amazon code from Ubuntu
+  * sudo apt purge ubuntu-web-launchers
