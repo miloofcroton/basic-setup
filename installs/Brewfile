@@ -6,6 +6,9 @@
 # cask "java" unless system "/usr/libexec/java_home --failfast"
 # whalebrew "whalebrew/wget"
 
+
+# search for more here: https://formulae.brew.sh/
+
 # hack nerd font for terminal
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
