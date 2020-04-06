@@ -89,3 +89,5 @@ https://muzzleapp.com/
 # - copy postman configs to /.postman and set Postman to look for configs there
 # - setup screenshot shortcut
 # - disable workspace shortcuts for OS
+# - give proper permissions to apps in security
+# - make sure correct apps start at startup
