@@ -1,0 +1,41 @@
+# tap "user/tap-repo", "https://user@bitbucket.org/user/homebrew-tap-repo.git"
+# cask_args appdir: "/Applications"
+# brew "denji/nginx/nginx-full", args: ["with-rmtp-module"]
+# brew "mysql@5.6", restart_service: true, link: true, conflicts_with: ["mysql"]
+# cask "firefox", args: { appdir: "~/my-apps/Applications" }
+# cask "java" unless system "/usr/libexec/java_home --failfast"
+# whalebrew "whalebrew/wget"
+
+# hack nerd font for terminal
+tap "homebrew/cask-fonts"
+cask "font-hack-nerd-font"
+
+# general brew packages
+brew 'azure-cli'
+brew 'azure-functions-core-tools'
+brew 'openssl'
+brew 'readline'
+brew 'sqlite3'
+brew 'xz'
+brew 'thefuck'
+brew 'gpg'
+brew 'mas'
+brew 'fzf'
+
+# app store apps
+mas "1Password 7", id: 1333542190
+mas "iMovie", id: 408981434
+mas "Ulysses", id: 1225570693
+mas "CopyClip", id: 1020812363
+mas "Image2icon", id: 992115977
+mas "GIPHY CAPTURE", id: 668208984
+mas "Slack", id: 803453959
+mas "Time Out", id: 402592703
+mas "WhatsApp", id: 1147396723
+mas "Pages", id: 409201541
+mas "Caffeinated", id: 1362171212
+mas "Telegram", id: 747648890
+mas "GarageBand", id: 682658836
+mas "DaisyDisk", id: 411643860
+mas "Numbers", id: 409203825
+mas "Pixelmator Pro", id: 1289583905

@@ -1,0 +1,116 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "materialTheme.accent": "Indigo",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#5C6BC0",
+        "list.activeSelectionForeground": "#5C6BC0",
+        "list.inactiveSelectionForeground": "#5C6BC0",
+        "list.highlightForeground": "#5C6BC0",
+        "scrollbarSlider.activeBackground": "#5C6BC050",
+        "editorSuggestWidget.highlightForeground": "#5C6BC0",
+        "textLink.foreground": "#5C6BC0",
+        "progressBar.background": "#5C6BC0",
+        "pickerGroup.foreground": "#5C6BC0",
+        "tab.activeBorder": "#5C6BC0",
+        "notificationLink.foreground": "#5C6BC0",
+        "editorWidget.resizeBorder": "#5C6BC0",
+        "editorWidget.border": "#5C6BC0",
+        "settings.modifiedItemIndicator": "#5C6BC0",
+        "settings.headerForeground": "#5C6BC0",
+        "panelTitle.activeBorder": "#5C6BC0",
+        "breadcrumb.activeSelectionForeground": "#5C6BC0",
+        "menu.selectionForeground": "#5C6BC0",
+        "menubar.selectionForeground": "#5C6BC0",
+        "editor.findMatchBorder": "#5C6BC0",
+        "selection.background": "#5C6BC040"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "vs-kubernetes": {
+  "vs-kubernetes.minikube-path": "/Users/jack_toumey/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+  "vs-kubernetes.helm-path": "/Users/jack_toumey/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+  "vs-kubernetes.kubectl-path": "/Users/jack_toumey/.vs-kubernetes/tools/kubectl/kubectl",
+  "vs-kubernetes.draft-path": "/Users/jack_toumey/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+},
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0,
+    "python.jediEnabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+"editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "eslint.packageManager": "yarn",
+    "tslint.packageManager": "yarn",
+    "git.autofetch": true,
+    "search.exclude": {
+      "**/.next": true,
+      "**/*.snap": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+    "eslint.autoFixOnSave": false,
+    "eslint.options": {
+      "extensions": [
+        ".js",
+        ".jsx",
+        // ".md",
+        // ".mdx",
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        // "autoFix": true
+      },
+      {
+        "language": "javascriptreact",
+        // "autoFix": true
+      },
+      // {
+      //   "language": "markdown",
+      //   "autoFix": true
+      // },
+      // {
+      //   "language": "mdx",
+      //   "autoFix": true
+      // },
+      {
+        "language": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ],
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    },
+    "search.searchOnType": false,
+    "explorer.compactFolders": false,
+    "files.exclude": {
+      "**/node_modules": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+}
