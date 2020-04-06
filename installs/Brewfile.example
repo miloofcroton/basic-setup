@@ -1,0 +1,7 @@
+tap "user/tap-repo", "https://user@bitbucket.org/user/homebrew-tap-repo.git"
+cask_args appdir: "/Applications"
+brew "denji/nginx/nginx-full", args: ["with-rmtp-module"]
+brew "mysql@5.6", restart_service: true, link: true, conflicts_with: ["mysql"]
+cask "firefox", args: { appdir: "~/my-apps/Applications" }
+cask "java" unless system "/usr/libexec/java_home --failfast"
+whalebrew "whalebrew/wget"

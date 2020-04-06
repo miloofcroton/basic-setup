@@ -89,7 +89,10 @@ https://code.visualstudio.com/Download
 https://calibre-ebook.com/download_windows
 # iTerm
 https://iterm2.com/
-
+# Docker
+https://hub.docker.com/editions/community/docker-ce-desktop-mac/
+# virtualbox
+https://www.virtualbox.org/wiki/Downloads
 
 
 # python
@@ -127,11 +130,3 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 # more steps
 # - copy the gitconfig file
-
-
-
-
-
-# - install more tools
-#     - docker
-#     - kubernetes

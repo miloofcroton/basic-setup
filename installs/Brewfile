@@ -1,17 +1,9 @@
-# tap "user/tap-repo", "https://user@bitbucket.org/user/homebrew-tap-repo.git"
-# cask_args appdir: "/Applications"
-# brew "denji/nginx/nginx-full", args: ["with-rmtp-module"]
-# brew "mysql@5.6", restart_service: true, link: true, conflicts_with: ["mysql"]
-# cask "firefox", args: { appdir: "~/my-apps/Applications" }
-# cask "java" unless system "/usr/libexec/java_home --failfast"
-# whalebrew "whalebrew/wget"
-
-
-# search for more here: https://formulae.brew.sh/
-
 # hack nerd font for terminal
 tap "homebrew/cask-fonts"
 cask "font-hack-nerd-font"
+
+tap "mongodb/brew"
+
 
 # general brew packages
 brew 'azure-cli'
@@ -24,13 +16,18 @@ brew 'thefuck'
 brew 'gpg'
 brew 'mas'
 brew 'fzf'
+brew 'kubectl'
+brew 'minikube'
+brew 'postgres'
+brew 'mongodb-community@4.2'
+brew 'robo3t'
+brew 'mysql@5.7'
 
 # app store apps
 mas "1Password 7", id: 1333542190
 mas "iMovie", id: 408981434
 mas "Ulysses", id: 1225570693
 mas "CopyClip", id: 1020812363
-mas "Image2icon", id: 992115977
 mas "GIPHY CAPTURE", id: 668208984
 mas "Slack", id: 803453959
 mas "Time Out", id: 402592703
