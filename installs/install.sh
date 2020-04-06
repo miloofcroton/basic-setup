@@ -20,8 +20,34 @@ xcode-select --install
 # - copy postman configs to /.postman and set Postman to look for configs there
 
 
+# Postgres.app
+# if [[ ! "$(which postgres)" =~ Postgres.app ]]; then
+#   read -p "${bold}Wanna install Postgres.app?${normal} [Yn]: " choice
+#   if [ "$choice" = 'Y' ]; then
+#     sleep $pause
+#     echo 'Downloading Postgres.app disk image from Github...'
+#     if [ -z ${dry+not_set} ]; then
+#       latest_pg='https://github.com/PostgresApp/PostgresApp/releases/download/v2.3.3e/Postgres-2.3.3e-12.dmg'
+#       tmpfile='/tmp/pg_latest.dmg'
+#       curl -\# -L -o $tmpfile $latest_pg
 
+#       echo 'Mounting Postgres.app disk image...'
+#       output=$(hdiutil mount $tmpfile)
+#       volume_dir=$(echo ${output##* } | xargs ) ### get last word in string (volume dir) and trim leading whitespaces
 
+#       echo 'Copying app into /Applications'
+#       cp -R $volume_dir/Postgres.app /Applications
+
+#       echo 'Unmounting disk image and removing tmpfile...'
+#       hdiutil unmount $volume_dir
+#       rm $tmpfile
+
+#       echo 'Adding Postgres.app cli tools to $PATH...'
+#       pg_bin='/Applications/Postgres.app/Contents/Versions/latest/bin'
+#       sudo mkdir -p /etc/paths.d && echo $pg_bin | sudo tee /etc/paths.d/postgressapp
+#     fi
+#   fi
+# fi
 
 
 # from website
