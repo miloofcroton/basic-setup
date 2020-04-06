@@ -20,8 +20,9 @@ brew 'kubectl'
 brew 'minikube'
 brew 'postgres'
 brew 'mongodb-community@4.2'
-brew 'robo3t'
 brew 'mysql@5.7'
+brew 'robo3t'
+brew 'sequel-pro'
 
 # app store apps
 mas "1Password 7", id: 1333542190
